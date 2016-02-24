@@ -11,8 +11,8 @@
                 }
         ],
         "require" : {
-                "silverstripe/cms": "3.0.*",
-                "silverstripe/framework": "3.0.*",
+                "silverstripe/cms": "3.*",
+                "silverstripe/framework": "3.*",
 				"spark-green/silverstripe-backup": "*",
 				"tpyo/amazon-s3-php-class": "*"
         }
