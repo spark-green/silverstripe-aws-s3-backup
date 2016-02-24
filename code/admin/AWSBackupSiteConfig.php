@@ -26,7 +26,7 @@ class AWSBackupSiteConfig extends DataExtension {
 				new HeaderField('aws-backup-heading', 'AWS Backup Settings'),
 				new LiteralField('aws-backup-explanation', '<p>This module transfers any .gz files in the assets directory to AWS S3</p>'),
 				$a = new TextField('AWSAccessKey','AWS Access Key'),
-				$b = new TextField('AWSSecretKey', 'AWS Access Key'),
+				$b = new TextField('AWSSecretKey', 'AWS Secret Key'),
 				$c = new TextField('AWSFolder', 'AWS Backup Storage Folder'),
 				new LiteralField('AWSBackupNow', 
 					'<input type="button" id="aws-backup-action" value="Transfer Archives to AWS now" class="ss-ui-button ui-button" role="button" aria-disabled="false">'.

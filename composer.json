@@ -1,18 +1,19 @@
 {
-        "name" : "SparkGreen/silverstripe-aws-s3-backup",
+        "name" : "spark-green/silverstripe-aws-s3-backup",
         "description" : "Backs up assets and database, and copies them somewhere safe.",
         "type" : "silverstripe-module",
         "authors" : [
                 {
                         "name" : "Julian Smith",
                         "email" : "julian@wubies.org",
+						"homepage" : "https://www.sparkgreen.com.au",
                         "role" : "Senior Developer"
                 }
         ],
         "require" : {
                 "silverstripe/cms": "3.0.*",
                 "silverstripe/framework": "3.0.*",
-				"DarrenInwood/silverstripe-backup": "*",
+				"spark-green/silverstripe-backup": "*",
 				"tpyo/amazon-s3-php-class": "*"
         }
 }
