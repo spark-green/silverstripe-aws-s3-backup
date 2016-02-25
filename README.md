@@ -28,11 +28,9 @@ If you don't have a user, you can use these instructions
 We now to give that user access to your S3 buckets
 
 1) Go back to IAM Users and click on your new user
-2) Go to Permissions and add the following permissions:
+2) Go to Permissions and add the following policy:
 
-	s3:ListAllMyBuckets
-	s3:GetBucketLocation
-	s3:ListBucket
+	AmazonS3FullAccess
 
 Lastly, go to S3 and create a bucket, and add that bucket name to the Settings > AWSBackup tab in your Silverstripe installation
 
